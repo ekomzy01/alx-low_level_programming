@@ -1,13 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- *  * main - Prints reversed alphabet.
- *
- *  * Return: Always 0 (Success)
+ * main - prints reversed alphbet
+ * Return: always 0 (success)
  */
 int main(void)
 {
 	int i;
-	
+
 	for (i = 122; i > 96; i--)
 	{
 		putchar(i);
@@ -15,3 +14,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+	
