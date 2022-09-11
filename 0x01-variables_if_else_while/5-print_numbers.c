@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - prints numbers form 0 t0 9
- * Returns: always 0
+ * Return: always 0
  */
 int main(void)
 {
