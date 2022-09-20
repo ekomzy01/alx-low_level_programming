@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- * swap_int - swaps the values of two in
+ * swap_int - swaps the values of two int
  * @a: memory location of type int
  * @b: ponter
- * @cp: int vairable
+ * @num: int vairable
  * Return: Always 0
  */
 void swap_int(int *a, int *b)
 {
-	int cp = *a;
+	int num = *a;
 
 	*a = *b;
-	*b = cp;
+	*b = num;
 }
