@@ -3,7 +3,6 @@
  * swap_int - swaps the values of two int
  * @a: memory location of type int
  * @b: ponter
- * @num: int vairable
  * Return: Always 0
  */
 void swap_int(int *a, int *b)
