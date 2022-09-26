@@ -3,14 +3,11 @@
  * _strspn - gets the length of a substring
  * @s: pointer vairable
  * @accept: pointer vairable
- * Return: the number of bytes in the initial
- * segment of s which consist only of bytes from accept
+ * Return: the number of bytes in the initial segment
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i;
-	int j;
-	int c;
+	int i, j, c;
 
 	i = 0;
 	c = 0;
