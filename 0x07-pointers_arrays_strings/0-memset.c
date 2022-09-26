@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * *_memset - file memory with constant byte
  * @s: char data type
