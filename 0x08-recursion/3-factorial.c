@@ -7,7 +7,7 @@
 int factorial(int n)
 {
 	if (n < 0)
-		printf("There is no factorial of a negative numbers");
+		return (-1);		
 	else if (n == 0)
 		return (1);
 	else
