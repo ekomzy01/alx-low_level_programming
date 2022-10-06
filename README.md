@@ -1,1 +1,1 @@
-low level programming language
+a function of array of characters
